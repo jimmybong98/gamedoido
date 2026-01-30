@@ -8,6 +8,7 @@ This repository contains a base Unity project layout and core gameplay systems f
 - Loot system with crates and tiered loot tables
 - Upgrade system for armor, gear, and weapons
 - Enemies: human, zombie, and bosses
+- Enemy AI with patrol/chase/attack/flee/search states and senses
 
 ## Getting started (Unity)
 1. Create a new Unity 3D project (URP recommended).

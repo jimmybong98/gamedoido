@@ -30,6 +30,11 @@
 - Zombies: slower, high health, infection effects.
 - Bosses: unique abilities and guaranteed loot.
 
+### Enemy AI
+- State machine: Patrol, Chase, Attack, Flee, Search.
+- Line-of-sight via raycast and simple hearing from noise events.
+- Boss AI phases unlock telegraphed, area, and summon attacks as health drops.
+
 ## Technical approach
 - ScriptableObjects for items and loot tables.
 - Modular MonoBehaviour components for systems.
