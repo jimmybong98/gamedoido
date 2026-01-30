@@ -4,6 +4,7 @@ namespace Gamedoido
 {
     [RequireComponent(typeof(EnemyAI))]
     [RequireComponent(typeof(UnityEngine.AI.NavMeshAgent))]
+
     public class EnemyBase : MonoBehaviour
     {
         public string enemyName = "Enemy";
@@ -17,6 +18,7 @@ namespace Gamedoido
         public float CurrentHealth => currentHealth;
         public float MaxHealth => maxHealth;
         public float HealthPercent => maxHealth <= 0f ? 0f : currentHealth / maxHealth;
+
 
         protected virtual void Awake()
         {

@@ -125,7 +125,6 @@ namespace Gamedoido
 
             return true;
         }
-
         protected override void Die()
         {
             if (bossLoot != null)
