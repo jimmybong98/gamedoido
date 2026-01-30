@@ -29,3 +29,6 @@ This is a base gameplay layer intended to be extended with:
 - networking/multiplayer
 
 See `Docs/GameDesign.md` for a full design overview and how systems connect.
+
+## Quick-start playable test scene
+To make the project immediately playable in the Unity Editor, a runtime **QuickStartSceneBuilder** now spawns a ground plane, a basic player controller, and loot crates using Unity primitive meshes as placeholder 3D models. See `Docs/QuickStart.md` for controls and customization details.
